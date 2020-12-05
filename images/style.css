@@ -1,0 +1,135 @@
+.menu{
+    text-align: center;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 40px;
+    width: 100px;
+text-transform: capitalize;
+}
+.menu a:hover{
+    background-color: gray;
+}
+.header{
+ background-image: url(images/polygons.png);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    background-position:top center;
+}
+.header a{
+    
+    border-radius: 15px;
+    padding:17px 60px;
+background-color: white;
+    color: black;
+    text-decoration: none;
+}
+.q{
+    margin-bottom: 30px;
+}
+.header a:hover{
+    color: white;
+    background-color: black;
+}
+.about img{
+    width: 400px;
+    float: right;
+    margin: 30px;
+    margin-top: 0;
+}
+.about{
+    width: 1200px;
+    padding: 40px 0;
+    margin: 0 auto;
+    text-align: justify;
+}
+.about h1{
+ text-align: center;   
+}
+.member{
+    width: 20%;
+    display: inline-block;
+    border-width: 2px;
+    border-style:solid;
+    border-color:gray;
+    padding: 20px;
+    box-shadow: 0 5px 9px black;
+    margin: 20px 10px;
+}
+.member img{
+    width: 100%;
+}
+.position{
+    opacity: 0.4;
+}
+.rad{
+    width: 100%;
+    background-color: #055b73;
+    color: white;
+    text-decoration: none;
+    padding: 14px 0;
+    border-radius: 10px;
+    display: inline-block;
+text-align: center;
+    
+}
+.team{
+    text-align: center;
+}
+.description{
+    text-align:left;
+}
+.prises{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 50px 10px;
+}
+.heading{
+    text-align: center;
+}
+.tarif{
+    color:black;
+    background-color: white;
+    width: 25%;
+    text-align: center;
+    margin: 10px; 
+    display: inline-block;
+    
+        
+}
+#button{
+    color: white;
+    background-color: black;
+    width:  100px;
+    border-radius: 8px;
+    display: inline-block;
+    height: 30px;
+    padding: 2px 4px;
+}
+#type{
+    background-color: black;
+    color: white;
+    padding:15px; 
+    width: 100%;
+    
+}
+.daily{
+    opacity: 0,4;
+}
+.tarif li{
+    list-style-type: none;
+    padding: 16px 0;
+}
+.obertka{
+    text-align: left;
+    display: inline-block;
+    
+}
+.hab{
+    text-align: center;
+}

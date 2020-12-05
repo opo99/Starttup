@@ -1,0 +1,230 @@
+.menu{
+    text-align: center;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    opacity: 0.5;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 40px;
+    width: 100%;
+text-transform: capitalize;
+}
+.menu a:hover{
+    background-color: gray;
+}
+.header{
+ background-image: url(images/polygons.png);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    background-position:top center;
+    margin-top: 58px;
+    background-attachment: fixed;
+}
+.header a{
+    
+    border-radius: 15px;
+    padding:17px 60px;
+background-color: white;
+    color: black;
+    text-decoration: none;
+}
+.q{
+    margin-bottom: 30px;
+}
+.header a:hover{
+    color: white;
+    background-color: black;
+}
+.contact input{
+    
+}
+
+
+
+
+
+.about img{
+    width: 400px;
+    float: right;
+    margin: 30px;
+    margin-top: 0;
+}
+.about{
+    max-width: 1200px;
+    padding: 40px 0;
+    margin: 0 auto;
+    text-align: justify;
+    
+}
+.about h1{
+ text-align: center;   
+}
+
+
+
+
+.member{
+    width: 20%;
+    display: inline-block;
+    border-width: 2px;
+    border-style:solid;
+    border-color:gray;
+    padding: 20px;
+    box-shadow: 0 5px 9px black;
+    margin: 20px 10px;
+}
+.member img{
+    width: 100%;
+}
+.position{
+    opacity: 0.4;
+}
+.mail{
+    width: 100%;
+    background-color: #055b73;
+    color: white;
+    text-decoration: none;
+    padding: 14px 0;
+    border-radius: 10px;
+    display: inline-block;
+text-align: center;
+    
+}
+.team{
+    text-align: center;
+}
+.description{
+    text-align:left;
+}
+
+
+
+
+
+
+.tariff li {
+    list-style: none;
+    
+    border-bottom-width: 1px;
+    padding: 16px 0;
+    border-bottom-color: gray;
+    border-bottom-style:solid;
+}
+
+.tariff .tariff-name {
+    color: white;
+    background-color: black;
+    font-size: 24px;
+    padding: 32px 0;
+}
+
+/* сделать средний тариф*/
+
+.tariff {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    vertical-align: middle;
+    background-color: white;
+    padding: 0;
+    min-width: 150px;
+}
+
+/*стили для последнего тега li который с кнопкой*/
+
+
+/*стили для ссылки/кнопки */
+.tariff a {
+    background-color: black;
+    padding: 12px 24px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+/*стили для ссылки при наведении курсора мышки*/
+
+
+#prices {
+    background-color: #616161;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#prices h2, #prices p {
+    color: white;
+}
+
+/* сделать жирными выделеное спаном */
+
+#prices .price {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#prices .period {
+    color: black;
+    opacity: 0.4;
+}
+.tariff .best{
+    background-color: #055b73;
+    padding: 48px 0;
+}
+.important{
+    font-weight: 900;
+}
+.nag{
+    background-color: gainsboro;
+}
+.center{
+    text-align: center;
+}
+.info{
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 18px 18px;
+    margin-left: 5%;
+    text-align: left;
+    padding-left: 30px;
+}
+.adress{
+    background-image: url(images/address.png);
+}
+.email{
+    background-image: url(images/mail.png);
+}
+.telefon{
+ background-image: url(images/phone.png);
+}
+.contact{
+    background-color: #f1f1f1;
+    text-align: center;
+}
+.contact input{
+    width: 90%;
+     padding: 8px;   
+}
+#button{
+    width: 22%;
+    padding: 7px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    cursor:pointer;
+    
+}
+#button:hover{
+    color: black;
+    background-color: white;
+}
+.futer{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
